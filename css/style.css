@@ -1,0 +1,16 @@
+h1{
+    color: red;
+}
+button{
+    color: blue;
+    border: 5px solid black;
+    padding: 1rem;
+}
+body{
+    background-color:gray;
+    text-align: center;
+    
+}
+div{
+    color: blue;
+}

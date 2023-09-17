@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Lista de Tareas</h1>
+    <div id="menu">
+        <button id="btnCompletadas">Ver Completadas</button>
+        <button id="btnPorCompletar">Ver por Completar</button>
+        <button id="btnAgregar">Agregar Tarea</button>
+        <button id="btnBorrarCompletadas">Borrar Completadas</button> <!-- Botón para borrar tareas completadas -->
+    </div>
+    <ul id="tareas">
+        <!-- Aquí se mostrarán las tareas -->
+    </ul>
+
+    <div id="editarTarea" style="display: none;">
+        <h2>Editar Tarea</h2>
+        <input type="text" id="editTaskName" placeholder="Nuevo nombre de la tarea">
+        <button id="btnGuardar">Guardar Cambios</button>
+    </div>
+
+    <div id="agregarTarea" style="display: none;">
+        <h2>Agregar Nueva Tarea</h2>
+        <input type="text" id="newTaskName" placeholder="Nombre de la nueva tarea">
+        <button id="btnAgregarNueva">Agregar</button>
+
+        
+    </div>
+
+    <script src="/index.js"></script>
+    <script src="/javascript/script.js"></script>
+</body>
+</html>
